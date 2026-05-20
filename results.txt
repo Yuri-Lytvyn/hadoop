@@ -1,0 +1,57 @@
+Word Count + Top 20 Results
+Input: input.txt
+
+[1] Sequential
+Total : 1000000
+Unique: 81
+Time  : 0.2991 s
+Top 20:
+    1. the                    61,896
+    2. of                     55,843
+    3. in                     52,358
+    4. a                      49,508
+    5. to                     49,381
+    6. and                    46,501
+    7. is                     43,108
+    8. it                     40,266
+    9. for                    36,780
+   10. on                     33,750
+   11. with                   30,833
+   12. that                   27,846
+   13. as                     27,622
+   14. an                     24,882
+   15. at                     24,670
+   16. by                     21,791
+   17. was                    21,614
+   18. are                    20,483
+   19. be                     18,741
+   20. from                   18,551
+
+[2] Hadoop MapReduce
+Time  : 7.0863 s
+Top 20:
+    1. the                    61,896
+    2. of                     55,843
+    3. in                     52,358
+    4. a                      49,508
+    5. to                     49,381
+    6. and                    46,501
+    7. is                     43,108
+    8. it                     40,266
+    9. for                    36,780
+   10. on                     33,750
+   11. with                   30,833
+   12. that                   27,846
+   13. as                     27,622
+   14. an                     24,882
+   15. at                     24,670
+   16. by                     21,791
+   17. was                    21,614
+   18. are                    20,483
+   19. be                     18,741
+   20. from                   18,551
+
+[Comparison]
+Sequential : 0.2991 s
+Hadoop     : 7.0863 s
+Hadoop is 23.7x slower (JVM overhead, single node)
